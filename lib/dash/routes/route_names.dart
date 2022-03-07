@@ -1,0 +1,9 @@
+const String ORoute = 'overview';
+const String DRoute = 'doctor';
+const String PRoute = 'patient';
+const String PRRoute = 'pharma';
+const String SRoute = 'settings';
+const String ARoute = 'about';
+const String InDRoute = 'doctordesc';
+const String InPRoute = 'patientdesc';
+const String InPRRoute = 'pharmadesc';
