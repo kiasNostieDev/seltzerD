@@ -49,32 +49,60 @@ class _SideMenuState extends State<SideMenu> {
             ),
           ),
           const SizedBox(height: 50.0,),
+          Expanded(
+            child: Container(
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    MenuTile(title: "overview", iconData: Icons.trending_up_sharp, btn: btncount, count: 0, onTap: ()=>{
+                      setState((){
+                        btncount=0;
+                        locator<NavigationService>().navigateTo(ORoute);
+                      })
+                    },),
+                    MenuTile(title: "Doctors", iconData: Icons.local_hospital, btn: btncount, count: 1, onTap: ()=>{
+                      setState((){
+                        btncount=1;
+                        locator<NavigationService>().navigateTo(DRoute);
+                      })
+                    },),
+                    MenuTile(title: "Patients", iconData: Icons.emoji_people, btn: btncount, count: 2, onTap: ()=>{
+                      setState((){
+                        btncount=2;
+                        locator<NavigationService>().navigateTo(PRoute);
+                      })
+                    },),
+                    MenuTile(title: "Pharmas", iconData: Icons.healing, btn: btncount, count: 3, onTap: ()=>{
+                      setState((){
+                        btncount=3;
+                        locator<NavigationService>().navigateTo(PRRoute);
+                      })
+                    },),
+                    MenuTile(title: "Retailers", iconData: Icons.schedule_send, btn: btncount, count: 6, onTap: ()=>{
+                      setState((){
+                        btncount=6;
+                        locator<NavigationService>().navigateTo(ReRoute);
+                      })
+                    },),
+                    MenuTile(title: "Wholesalers", iconData: Icons.wifi_protected_setup_outlined, btn: btncount, count: 7, onTap: ()=>{
+                      setState((){
+                        btncount=7;
+                        locator<NavigationService>().navigateTo(WRoute);
+                      })
+                    },),
+                    MenuTile(title: "Manufacturers", iconData: Icons.factory, btn: btncount, count: 8, onTap: ()=>{
+                      setState((){
+                        btncount=8;
+                        locator<NavigationService>().navigateTo(MRoute);
+                      })
+                    },),
+                  ],
+                ),
+              ),
+            ),
+          ),
           Column(
             children: [
-              MenuTile(title: "overview", iconData: Icons.trending_up_sharp, btn: btncount, count: 0, onTap: ()=>{
-                setState((){
-                  btncount=0;
-                  locator<NavigationService>().navigateTo(ORoute);
-                })
-              },),
-              MenuTile(title: "Doctors", iconData: Icons.local_hospital, btn: btncount, count: 1, onTap: ()=>{
-                setState((){
-                  btncount=1;
-                  locator<NavigationService>().navigateTo(DRoute);
-                })
-              },),
-              MenuTile(title: "Patients", iconData: Icons.emoji_people, btn: btncount, count: 2, onTap: ()=>{
-                setState((){
-                  btncount=2;
-                  locator<NavigationService>().navigateTo(PRoute);
-                })
-              },),
-              MenuTile(title: "Pharma", iconData: Icons.healing, btn: btncount, count: 3, onTap: ()=>{
-                setState((){
-                  btncount=3;
-                  locator<NavigationService>().navigateTo(PRRoute);
-                })
-              },),
               const Divider(height: 30.0, indent: 40.0, endIndent: 40.0,),
               MenuTile(title: "Settings", iconData: Icons.settings, btn: btncount, count: 4, onTap: ()=>{
                 setState((){

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:seltzer_revisited/dash/dash_home.dart';
+import 'package:seltzer_revisited/doctor/doctor_home.dart';
 import '/dash/locator.dart';
 
 void main() {

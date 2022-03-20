@@ -213,7 +213,7 @@ class _DoctorsState extends State<Doctors> {
                 child: DataTable(
                   headingRowColor: MaterialStateColor.resolveWith((states) {return const Color(
                       0xffFEB833);},),
-                  columnSpacing: 80.0,
+                  columnSpacing: MediaQuery.of(context).size.width/15,
                   dataRowHeight: 80.0,
                   columns: <DataColumn>[
                     DataColumn(
