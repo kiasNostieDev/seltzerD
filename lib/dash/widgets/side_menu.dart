@@ -23,32 +23,19 @@ class _SideMenuState extends State<SideMenu> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Container(
+                  height: 70.0,
+                  width: double.infinity,
+                  child: Image.asset('assets/images/logo.png')
+                ),
                 Text(
                   "seltzer",
                   style: GoogleFonts.raleway(fontSize: 28.0, fontWeight: FontWeight.bold),
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Text(
-                      "---",
-                      style: GoogleFonts.vollkorn(fontSize: 15.0, fontWeight: FontWeight.w800, color: Colors.black38),
-                    ),
-                    Text(
-                      "Dummy Demo",
-                      style: GoogleFonts.vollkorn(fontSize: 15.0, fontWeight: FontWeight.w800, color: Colors.black38),
-                    ),
-                    Text(
-                      "---",
-                      style: GoogleFonts.vollkorn(fontSize: 15.0, fontWeight: FontWeight.w800, color: Colors.black38),
-                    ),
-                  ],
-                ),
               ],
             ),
           ),
-          const SizedBox(height: 50.0,),
+          const SizedBox(height: 40.0,),
           Expanded(
             child: Container(
               child: SingleChildScrollView(
