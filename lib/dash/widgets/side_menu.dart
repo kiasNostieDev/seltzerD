@@ -36,7 +36,7 @@ class _SideMenuState extends State<SideMenu> {
                       style: GoogleFonts.vollkorn(fontSize: 15.0, fontWeight: FontWeight.w800, color: Colors.black38),
                     ),
                     Text(
-                      "drug tracer",
+                      "Dummy Demo",
                       style: GoogleFonts.vollkorn(fontSize: 15.0, fontWeight: FontWeight.w800, color: Colors.black38),
                     ),
                     Text(

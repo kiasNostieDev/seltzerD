@@ -24,7 +24,7 @@ class _DoctorDataState extends State<DoctorData> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   const CircleAvatar(radius: 30.0, child: Icon(Icons.person_add_alt_1, color: Colors.black,), backgroundColor: Color(0xffFEB833),),
-                  Text("Gyro Zeppeli", style: GoogleFonts.raleway(fontSize: 25.0,),)
+                  Text("Caroline LaRue", style: GoogleFonts.raleway(fontSize: 25.0,),)
                 ],
               ),
             ),
@@ -40,7 +40,7 @@ class _DoctorDataState extends State<DoctorData> {
                             Row(
                               children: [
                                 Text("ID: ", style: GoogleFonts.raleway(fontSize: 17.0, fontWeight: FontWeight.bold),),
-                                Text("id99kd", style: GoogleFonts.raleway(fontSize: 17.0, fontWeight: FontWeight.bold, color: Colors.black45),),
+                                Text("23md4ij", style: GoogleFonts.raleway(fontSize: 17.0, fontWeight: FontWeight.bold, color: Colors.black45),),
                               ],
                             ),
                             Row(
@@ -112,7 +112,7 @@ class _DoctorDataState extends State<DoctorData> {
                             Row(
                               children: [
                                 Text("Hospital: ", style: GoogleFonts.raleway(fontSize: 17.0, fontWeight: FontWeight.bold),),
-                                Text("AJR Organisation", style: GoogleFonts.raleway(fontSize: 17.0, fontWeight: FontWeight.bold, color: Colors.black45),),
+                                Text("NPM Organisation", style: GoogleFonts.raleway(fontSize: 17.0, fontWeight: FontWeight.bold, color: Colors.black45),),
                               ],
                             ),
                           ],
@@ -121,7 +121,7 @@ class _DoctorDataState extends State<DoctorData> {
                         Row(
                           children: [
                             Text("Hospital: ", style: GoogleFonts.raleway(fontSize: 17.0, fontWeight: FontWeight.bold),),
-                            Text("AJR Organisation", style: GoogleFonts.raleway(fontSize: 17.0, fontWeight: FontWeight.bold, color: Colors.black45),),
+                            Text("NPM Organisation", style: GoogleFonts.raleway(fontSize: 17.0, fontWeight: FontWeight.bold, color: Colors.black45),),
                           ],
                         ),
                         const Divider(height: 30.0,),

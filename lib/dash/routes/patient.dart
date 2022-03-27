@@ -267,52 +267,9 @@ class _PatientState extends State<Patient> {
                     ),
                     DataRow(
                       cells: <DataCell>[
-                        DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('as54df', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('Augustine', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('No', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('13/10/19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(ElevatedButton(onPressed: () {locator<NavigationService>().navigateTo(InPRoute);}, child: const Text("SHOW"), style: ElevatedButton.styleFrom(primary: const Color(
-                            0xff32DBA2)),))
-                      ],
-                    ),
-                    DataRow(
-                      cells: <DataCell>[
-                        DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('as54df', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('Augustine', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('Yes', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('13/10/19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(ElevatedButton(onPressed: () {locator<NavigationService>().navigateTo(InPRoute);}, child: const Text("SHOW"), style: ElevatedButton.styleFrom(primary: const Color(
-                            0xff32DBA2)),))
-                      ],
-                    ),
-                    DataRow(
-                      cells: <DataCell>[
-                        DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('as54df', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('Augustine', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('No', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('13/10/19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(ElevatedButton(onPressed: () {locator<NavigationService>().navigateTo(InPRoute);}, child: const Text("SHOW"), style: ElevatedButton.styleFrom(primary: const Color(
-                            0xff32DBA2)),))
-                      ],
-                    ),
-                    DataRow(
-                      cells: <DataCell>[
-                        DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('as54df', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('Augustine', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('Yes', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('13/10/19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(ElevatedButton(onPressed: () {locator<NavigationService>().navigateTo(InPRoute);}, child: const Text("SHOW"), style: ElevatedButton.styleFrom(primary: const Color(0xff32DBA2)),))
-                      ],
-                    ),
-                    DataRow(
-                      cells: <DataCell>[
-                        DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('as54df', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('Augustine', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
+                        DataCell(Text('2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
+                        DataCell(Text('bsedtf', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
+                        DataCell(Text('Prima Rina', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                         DataCell(Text('No', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                         DataCell(Text('13/10/19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                         DataCell(ElevatedButton(onPressed: () {locator<NavigationService>().navigateTo(InPRoute);}, child: const Text("SHOW"), style: ElevatedButton.styleFrom(primary: const Color(

@@ -16,16 +16,11 @@ class OverView extends StatefulWidget {
 
 class _OverViewState extends State<OverView> {
   final List<ChartData> data = [
-    ChartData(year: '2016', clients: 200, barColor: charts.ColorUtil.fromDartColor(const Color(0xffFFE9AC))),
-    ChartData(year: '2017', clients: 900, barColor: charts.ColorUtil.fromDartColor(const Color(0xffFFE9AC))),
-    ChartData(year: '2018', clients: 1400, barColor: charts.ColorUtil.fromDartColor(const Color(0xffFFE9AC))),
-    ChartData(year: '2019', clients: 3000, barColor: charts.ColorUtil.fromDartColor(const Color(0xffB8E6C7))),
-    ChartData(year: '2020', clients: 8000, barColor: charts.ColorUtil.fromDartColor(const Color(0xffB8E6C7))),
-    ChartData(year: '2021', clients: 300, barColor: charts.ColorUtil.fromDartColor(const Color(0xffFFE9AC))),
-    ChartData(year: '2022', clients: 2400, barColor: charts.ColorUtil.fromDartColor(const Color(0xffFFE9AC))),
-    ChartData(year: '2023', clients: 5700, barColor: charts.ColorUtil.fromDartColor(const Color(0xffB8E6C7))),
-    ChartData(year: '2024', clients: 100, barColor: charts.ColorUtil.fromDartColor(const Color(0xffFFE9AC))),
-    ChartData(year: '2025', clients: 430, barColor: charts.ColorUtil.fromDartColor(const Color(0xffFFE9AC))),
+    ChartData(year: 'Doctors', clients: 2, barColor: charts.ColorUtil.fromDartColor(const Color(0xffFFE9AC))),
+    ChartData(year: 'Patients', clients: 8, barColor: charts.ColorUtil.fromDartColor(const Color(0xffFFE9AC))),
+    ChartData(year: 'Retailers', clients: 14, barColor: charts.ColorUtil.fromDartColor(const Color(0xffFFE9AC))),
+    ChartData(year: 'Wholesalers', clients: 19, barColor: charts.ColorUtil.fromDartColor(const Color(0xffB8E6C7))),
+    ChartData(year: 'Manufacturer', clients: 8, barColor: charts.ColorUtil.fromDartColor(const Color(0xffB8E6C7))),
   ];
   @override
   Widget build(BuildContext context) {
@@ -58,14 +53,14 @@ class _OverViewState extends State<OverView> {
                                 children: [
                                   Column(
                                     children: const [
-                                      OverviewCard(title: 'Doctors', count: '690',),
-                                      OverviewCard(title: 'Patients', count: '3003',),
+                                      OverviewCard(title: 'Doctors', count: '2',),
+                                      OverviewCard(title: 'Patients', count: '8',),
                                     ],
                                   ),
                                   Column(
                                     children: const [
-                                      OverviewCard(title: 'Pharma', count: '420',),
-                                      OverviewCard(title: 'Transactions', count: '5000',),
+                                      OverviewCard(title: 'Pharma', count: '4',),
+                                      OverviewCard(title: 'Transactions', count: '10',),
                                     ],
                                   ),
                                 ],

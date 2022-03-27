@@ -24,7 +24,7 @@ class _PatientDataState extends State<PatientData> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   const CircleAvatar(radius: 30.0, child: Icon(Icons.person_add_alt_1, color: Colors.black,), backgroundColor: Color(0xffFEB833),),
-                  Text("Johnny Bravo", style: GoogleFonts.raleway(fontSize: 25.0,),)
+                  Text("Augustine", style: GoogleFonts.raleway(fontSize: 25.0,),)
                 ],
               ),
             ),

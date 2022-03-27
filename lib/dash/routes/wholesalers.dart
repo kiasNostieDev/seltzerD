@@ -261,7 +261,7 @@ class _WholesalerState extends State<Wholesaler> {
                       cells: <DataCell>[
                         DataCell(Text('2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                         DataCell(Text('as54df', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('CM Breeze', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
+                        DataCell(Text('Sie Yeie', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                         DataCell(Text('Yes', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                         DataCell(ElevatedButton(onPressed: () {locator<NavigationService>().navigateTo(InPRRoute);}, child: const Text("SHOW"), style: ElevatedButton.styleFrom(primary: const Color(0xff32DBA2)),))
                       ],
@@ -270,7 +270,7 @@ class _WholesalerState extends State<Wholesaler> {
                       cells: <DataCell>[
                         DataCell(Text('3', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                         DataCell(Text('as54df', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                        DataCell(Text('CM Breeze', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
+                        DataCell(Text('Shake Downs', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                         DataCell(Text('Yes', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                         DataCell(ElevatedButton(onPressed: () {locator<NavigationService>().navigateTo(InPRRoute);}, child: const Text("SHOW"), style: ElevatedButton.styleFrom(primary: const Color(0xff32DBA2)),))
                       ],

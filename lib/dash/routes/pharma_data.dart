@@ -155,88 +155,16 @@ class _PharmaDataState extends State<PharmaData> {
                                 cells: <DataCell>[
                                   DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                                   DataCell(Text('23md4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('Caroline LaRue', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
+                                  DataCell(Text('2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                                   DataCell(Text('4/23/2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                                   DataCell(Text('2023md4i19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                                 ],
                               ),
                               DataRow(
                                 cells: <DataCell>[
-                                  DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('23md4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('Caroline LaRue', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('4/23/2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('2023md4i19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                ],
-                              ),
-                              DataRow(
-                                cells: <DataCell>[
-                                  DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('23md4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('Caroline LaRue', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('4/23/2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('2023md4i19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                ],
-                              ),
-                              DataRow(
-                                cells: <DataCell>[
-                                  DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('23md4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('Caroline LaRue', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('4/23/2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('2023md4i19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                ],
-                              ),
-                              DataRow(
-                                cells: <DataCell>[
-                                  DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('23md4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('Caroline LaRue', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('4/23/2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('2023md4i19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                ],
-                              ),
-                              DataRow(
-                                cells: <DataCell>[
-                                  DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('23md4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('Caroline LaRue', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('4/23/2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('2023md4i19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                ],
-                              ),
-                              DataRow(
-                                cells: <DataCell>[
-                                  DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('23md4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('Caroline LaRue', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('4/23/2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('2023md4i19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                ],
-                              ),
-                              DataRow(
-                                cells: <DataCell>[
-                                  DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('23md4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('Caroline LaRue', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('4/23/2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('2023md4i19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                ],
-                              ),
-                              DataRow(
-                                cells: <DataCell>[
-                                  DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('23md4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('Caroline LaRue', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('4/23/2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('2023md4i19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                ],
-                              ),
-                              DataRow(
-                                cells: <DataCell>[
-                                  DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('23md4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  DataCell(Text('Caroline LaRue', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
+                                  DataCell(Text('2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
+                                  DataCell(Text('2nrb4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
+                                  DataCell(Text('8', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                                   DataCell(Text('4/23/2', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                                   DataCell(Text('2023md4i19', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
                                 ],
@@ -291,30 +219,6 @@ class _PharmaDataState extends State<PharmaData> {
                                 ),
                               ],
                               rows: <DataRow>[
-                                DataRow(
-                                  cells: <DataCell>[
-                                    DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                    DataCell(Text('23md4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                    DataCell(Text('65B', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                    DataCell(Text('AD7 tabs', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  ],
-                                ),
-                                DataRow(
-                                  cells: <DataCell>[
-                                    DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                    DataCell(Text('23md4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                    DataCell(Text('65B', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                    DataCell(Text('AD7 tabs', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  ],
-                                ),
-                                DataRow(
-                                  cells: <DataCell>[
-                                    DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                    DataCell(Text('23md4ij', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                    DataCell(Text('65B', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                    DataCell(Text('AD7 tabs', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
-                                  ],
-                                ),
                                 DataRow(
                                   cells: <DataCell>[
                                     DataCell(Text('1', style: GoogleFonts.raleway(fontWeight: FontWeight.w500, fontSize: 15.0),)),
