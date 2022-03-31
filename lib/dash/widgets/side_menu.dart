@@ -59,12 +59,12 @@ class _SideMenuState extends State<SideMenu> {
                         locator<NavigationService>().navigateTo(PRoute);
                       })
                     },),
-                    MenuTile(title: "Pharmas", iconData: Icons.healing, btn: btncount, count: 3, onTap: ()=>{
-                      setState((){
-                        btncount=3;
-                        locator<NavigationService>().navigateTo(PRRoute);
-                      })
-                    },),
+                    // MenuTile(title: "Pharmas", iconData: Icons.healing, btn: btncount, count: 3, onTap: ()=>{
+                    //   setState((){
+                    //     btncount=3;
+                    //     locator<NavigationService>().navigateTo(PRRoute);
+                    //   })
+                    // },),
                     MenuTile(title: "Retailers", iconData: Icons.schedule_send, btn: btncount, count: 6, onTap: ()=>{
                       setState((){
                         btncount=6;
